@@ -1,0 +1,165 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Acumin Pro',sans-serif;
+    color: #181818;
+    list-style: none;
+    background-color: #FAFAFA;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    margin: 28px 30px;
+    font-size: 18px;
+}
+
+.navbar ul  .left {
+    font-weight:bolder;
+    font-size: 23px;
+}
+
+li {
+    display: inline;
+}
+
+ul .right {
+    float: right;
+} 
+
+ul .mid a {
+    cursor: default;
+}
+
+ul .mid {
+    margin-right: 60px;
+}
+
+ul .last a{
+    padding: 8px 8px;
+    color: #181818;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border: 2px solid black;
+}
+
+section .left{
+    width: 50%;
+    margin: 0px auto;
+    padding: 0;
+    height: 100%;
+}
+
+section .right{
+    width: 50%;
+    text-align: right;
+}
+
+section .right img {
+    height: 500px;
+}
+
+div .hello{
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.body {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.about {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about .titles {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.about .visi {
+    font-weight:600;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.about .misi {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.about .mid img{
+    height: 600px;
+    width: 100%;
+}
+
+.misi .lefts {
+    width: 40%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.misi .rights {
+    width: 40%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.rights :nth-child(1){
+    margin-top: 45px;
+}
+
+.rights :nth-child(2){
+    margin-top: 310px;
+}
+
+.lefts :nth-child(1){
+    margin-top: 210px;
+}
+
+.lefts :nth-child(2){
+    margin-top: 310px;
+}
+
+.contact {
+    text-align: center;
+    min-height: 100px;
+}
+
+.contact a{
+    background-color: #181818;
+    padding: 15px 18px;
+    color: #FAFAFA;
+    box-shadow: 4px 2px #c4c4c4;
+    cursor: default;
+}
+
+.contact a:hover {
+    box-shadow: 2px 1.5px #c4c4c4;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.copyright {
+    background-color: #181818;
+    max-height: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.copyright span{
+    background-color: #181818;
+    color: #FAFAFA;
+}
